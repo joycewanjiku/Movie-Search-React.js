@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.posterall{
+  
+  text-decoration:"none";
+  color: white;
+
+}  
+  .posterImage {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left: 20%;
+    overflow: hidden;
+  }
+  
+  .posterImage__overlay {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+  
+   .posterImage__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .posterImage__runtime {
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 25%;
+  }
+  
+  
+  .posterImage__description {
+    font-size: 14px;
+    line-height: 1.5;
+  } 
